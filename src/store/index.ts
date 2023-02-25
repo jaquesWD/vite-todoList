@@ -1,0 +1,1 @@
+import { App } from 'vue'import { createPinia } from 'pinia'export default new class InstallPinia {	install = (app: App) => app.use(createPinia())}
